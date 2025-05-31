@@ -5,9 +5,9 @@ export function CategoryItem({strCategory, strCategoryThumb, strCategoryDescript
         <div className="rounded-lg overflow-hidden shadow-md bg-white m-1" key={strCategory}>
             <div className="relative">
                 <img src={strCategoryThumb} alt={strCategory} className="w-full h-48 object-cover bg-white" />
-                <h2 className="absolute bottom-2 left-2 text-white text-xl font-semibold bg-black/60 px-2 py-1 rounded">{strCategory}</h2>
+                <h2 className="absolute bottom-34 left-2 text-white text-xl font-semibold bg-black/60 px-2 py-1 rounded">{strCategory}</h2>
             </div>
-            <div className="p-8">
+            <div className="textik p-7">
                 <p className="text-black">{strCategoryDescription.slice(0,60)}...</p>
             </div>
             <div className="px-4 pb-4 pt-4 bg-black">
